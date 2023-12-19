@@ -1,5 +1,4 @@
 import { useState, useRef } from "react";
-
 export default function StickyNote({ onClose }) {
   const [allowMove, setAllowMove] = useState(false);
   const stickyNoteRef = useRef();
